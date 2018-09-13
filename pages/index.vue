@@ -2,7 +2,7 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
 
-      <div class="text-xs-center pa-3">
+      <div class="text-xs-center mt-3 pa-3">
 
         <v-avatar
           :size="'124px'"
@@ -15,31 +15,25 @@
 
       <div class="pa-3 text-xs-center">
 
-        <h2 class="text-xs-center pa-3">
+        <h2 class="text-xs-center pa-3 mb-3">
           ¿Qué deseas saber de tu stock?
         </h2>
 
-         <v-text-field
-            v-model="bio"
-            box
-            color="deep-purple"
-            label="Email address"
-            type="email"
-          ></v-text-field>
+        <v-textarea
+          v-model="bio"
+          auto-grow
+          box
+          color="deep-purple"
+          :label="bioPlaceholder"
+          rows="3"
+        ></v-textarea>
 
-          <div class="mt-4" style="border: solid 1px blue;">
-            <v-textarea
-              v-model="bio"
-              auto-grow
-              box
-              color="deep-purple"
-              label="Bio"
-              rows="2"
-            ></v-textarea>
-          </div>
         <div>
-          <v-btn color="primary" flat nuxt to="/stock">Continue</v-btn>
+          <v-btn color="primary" flat nuxt to="/stock">
+            Enviar
+          </v-btn>
         </div>
+
       </div>
     </v-flex>
   </v-layout>
@@ -49,8 +43,8 @@
   export default {
     data () {
       return {
-        bio: "Some text here",
-        bioPlaceholder: '¿Pregunta a tu asistente?',
+        bio: "",
+        bioPlaceholder: 'Pregunta a tu asistente lo que desees saber',
       }
     }
   };
