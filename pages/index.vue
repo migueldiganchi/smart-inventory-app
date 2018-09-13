@@ -1,43 +1,57 @@
 <template>
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
-      <div class="text-xs-center">
-        <logo/>
-        <vuetify-logo/>
+
+      <div class="text-xs-center pa-3">
+
+        <v-avatar
+          :size="'124px'"
+          color="grey lighten-4"
+        >
+          <img src="~/assets/media/bot.png" alt="Stock manager">
+        </v-avatar>
+
       </div>
-      <v-card>
-        <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>For more information on Vuetify, check out the <a href="https://vuetifyjs.com" target="_blank">documentation</a>.</p>
-          <p>If you have questions, please join the official <a href="https://chat.vuetifyjs.com/" target="_blank" title="chat">discord</a>.</p>
-          <p>Find a bug? Report it on the github <a href="https://github.com/vuetifyjs/vuetify/issues" target="_blank" title="contribute">issue board</a>.</p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
+
+      <div class="pa-3 text-xs-center">
+
+        <h2 class="text-xs-center pa-3">
+          ¿Qué deseas saber de tu stock?
+        </h2>
+
+         <v-text-field
+            v-model="bio"
+            box
+            color="deep-purple"
+            label="Email address"
+            type="email"
+          ></v-text-field>
+
+          <div class="mt-4" style="border: solid 1px blue;">
+            <v-textarea
+              v-model="bio"
+              auto-grow
+              box
+              color="deep-purple"
+              label="Bio"
+              rows="2"
+            ></v-textarea>
           </div>
-          <hr class="my-3">
-          <a href="https://nuxtjs.org/" target="_blank">Nuxt Documentation</a>
-          <br>
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank">Nuxt GitHub</a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn color="primary" flat nuxt to="/inspire">Continue</v-btn>
-        </v-card-actions>
-      </v-card>
+        <div>
+          <v-btn color="primary" flat nuxt to="/stock">Continue</v-btn>
+        </div>
+      </div>
     </v-flex>
   </v-layout>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
-
-export default {
-  components: {
-    Logo,
-    VuetifyLogo
-  }
-}
+  export default {
+    data () {
+      return {
+        bio: "Some text here",
+        bioPlaceholder: '¿Pregunta a tu asistente?',
+      }
+    }
+  };
 </script>

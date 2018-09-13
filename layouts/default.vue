@@ -1,3 +1,4 @@
+
 <template>
   <v-app dark>
     <v-navigation-drawer
@@ -87,8 +88,8 @@
         drawer: true,
         fixed: false,
         items: [
-          { icon: 'apps', title: 'Welcome', to: '/' },
-          { icon: 'bubble_chart', title: 'Inspire', to: '/inspire' }
+          { icon: 'android', title: 'Asistente', to: '/' },
+          { icon: 'assessment', title: 'Stock', to: '/stock' }
         ],
         miniVariant: false,
         right: true,

@@ -1,0 +1,48 @@
+.toolbar {
+  background-color: #455A64 !important;
+}
+
+.navigation-drawer {
+  background-color: #37474F !important;
+}
+
+.circle {
+    -webkit-border-radius: 50% !important;
+          border-radius: 50% !important;
+     -moz-border-radius: 50% !important;
+}
+
+.radius-12 {
+  -webkit-border-radius: 12px !important;
+  -moz-border-radius: 12px !important;
+  border-radius: 12px !important;
+}
+
+.p-10 {
+  padding: 10px !important;
+}
+
+.p-12 {
+  padding: 12px !important;
+}
+
+.map-container {
+  padding: 12px;
+  border: dashed 1px #c9c9c9;
+  width: 100%;
+}
+
+.alpha-60 {
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.no-padding {
+  padding: 0 !important;
+}
