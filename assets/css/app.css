@@ -7,9 +7,9 @@
 }
 
 .circle {
-    -webkit-border-radius: 50% !important;
-          border-radius: 50% !important;
-     -moz-border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
 }
 
 .radius-12 {

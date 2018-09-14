@@ -62,7 +62,55 @@
             ]
           },
           {
-            name: 'Botella de agua mineral 250cc',
+            name: 'Agua mineral 250cc',
+            value: 45,
+            features: [
+              { title: 'Restante', value: 84 },
+              { title: 'Mínimo', value: 32 },
+            ]
+          },
+          {
+            name: 'Lata coca-cola',
+            value: 91,
+            features: [
+              { title: 'Restante', value: 12 },
+              { title: 'Mínimo', value: 23 },
+            ]
+          },
+          {
+            name: 'Vaso de whisky',
+            value: 53,
+            features: [
+              { title: 'Restante', value: 9 },
+              { title: 'Mínimo', value: 82 },
+            ]
+          },
+          {
+            name: 'Agua mineral 250cc',
+            value: 45,
+            features: [
+              { title: 'Restante', value: 84 },
+              { title: 'Mínimo', value: 32 },
+            ]
+          },
+          {
+            name: 'Lata coca-cola',
+            value: 91,
+            features: [
+              { title: 'Restante', value: 12 },
+              { title: 'Mínimo', value: 23 },
+            ]
+          },
+          {
+            name: 'Vaso de whisky',
+            value: 53,
+            features: [
+              { title: 'Restante', value: 9 },
+              { title: 'Mínimo', value: 82 },
+            ]
+          },
+          {
+            name: 'Agua mineral 250cc',
             value: 45,
             features: [
               { title: 'Restante', value: 84 },
