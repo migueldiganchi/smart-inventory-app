@@ -43,9 +43,7 @@
       </v-btn>
     </v-toolbar>
     <v-content>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-content>
     <v-footer
       class="elevation-21" 
@@ -68,8 +66,8 @@
         drawer: false,
         fixed: false,
         items: [
-          { icon: 'android', title: 'Asistente', to: '/' },
-          { icon: 'assessment', title: 'Stock', to: '/stock' }
+          { icon: 'assessment', title: 'Stock', to: '/stock' },
+          { icon: 'android', title: 'Asistente', to: '/' }
         ],
         miniVariant: false,
         title: 'StockBot'
