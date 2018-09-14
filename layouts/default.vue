@@ -66,8 +66,9 @@
         drawer: false,
         fixed: false,
         items: [
-          { icon: 'assessment', title: 'Stock', to: '/stock' },
-          { icon: 'android', title: 'Asistente', to: '/' }
+          { icon: 'home', title: 'Inicio', to: '/' },
+          { icon: 'equalizer', title: 'Stock', to: '/stock' },
+          { icon: 'android', title: 'Asistente', to: '/assistant' }
         ],
         miniVariant: false,
         title: 'StockBot'
