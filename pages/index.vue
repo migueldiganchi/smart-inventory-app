@@ -6,7 +6,6 @@
 
         <v-avatar
           :size="'124px'"
-          color="grey lighten-4"
         >
           <img src="~/assets/media/bot.png" alt="Stock manager">
         </v-avatar>
@@ -15,7 +14,7 @@
 
       <div class="pa-3 text-xs-center">
 
-        <h2 class="text-xs-center pa-3 mb-3">
+        <h2 class="text-xs-center primary--text pa-3 mb-3">
           ¿Qué deseas saber de tu stock?
         </h2>
 
@@ -23,7 +22,7 @@
           v-model="bio"
           auto-grow
           box
-          color="deep-purple"
+          color="light-green accent-3"
           :label="bioPlaceholder"
           rows="3"
         ></v-textarea>
