@@ -68,6 +68,11 @@
         items: [
           { icon: 'home', title: 'Inicio', to: '/' },
           { icon: 'equalizer', title: 'Stock', to: '/stock' },
+          { 
+            icon: 'account_balance_wallet', 
+            title: 'Proveedores', 
+            to: '/providers' 
+          },
           { icon: 'android', title: 'Asistente', to: '/assistant' }
         ],
         miniVariant: false,

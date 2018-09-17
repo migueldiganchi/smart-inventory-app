@@ -1,56 +1,16 @@
 <template>
   <v-container class="pa-4" grid-list-lg fluid>
-    <v-layout row wrap>
-      <v-flex v-for="product in products"
-        :key="product.id" xs12 md6 lg4>
-        <v-card 
-          color="blue-grey darken-3 ma-1" 
-          class="white--text">
-            <v-layout row>
-              <v-flex xs10>
-                <v-card-title primary-title>
-                  <div>
-                    <label>{{ product.name }}</label>
-                    <div 
-                      v-for="feature in product.features"
-                      :key="feature.id">
-                      <small>
-                        <b>{{ feature.title }}</b>: <b color="light-green accent-2">{{ feature.value }}</b></small>
-                    </div>
-                  </div>
-                </v-card-title>
-              </v-flex>
-              <v-flex xs3 class="pt-4 mt-1 mr-3 text-xs-right">
-                <v-progress-circular
-                  :rotate="360"
-                  :size="60"
-                  :width="6"
-                  :value="product.value"
-                  color="light-green accent-3"
-                ></v-progress-circular>
-              </v-flex>
-            </v-layout>
-            <v-divider light></v-divider>
-            <v-card-actions>
-              <v-btn fab small dark color="indigo elevation-1">
-                <v-icon dark>timeline</v-icon>
-              </v-btn>
-              <v-spacer></v-spacer>
-              <v-btn fab small  dark color="blue-grey lighten-1 elevation-1">
-                <v-icon dark>edit</v-icon>
-              </v-btn>
-              <v-btn fab small dark color="red elevation-1">
-                <v-icon dark>remove</v-icon>
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-      </v-flex>
-    </v-layout>
+    <ProductList :products="products" />
   </v-container>
 </template>
 
 <script>
+  import ProductList from '@/components/stock/ProductList'
+
   export default {
+    components: {
+      ProductList
+    },
     data () {
       return {
         products: [
