@@ -2,6 +2,10 @@
   background-color: #455A64 !important;
 }
 
+.nuxt-link {
+  border: solid 1px red !important;
+}
+
 .v-navigation-drawer {
   background-color: #37474F !important;
 }

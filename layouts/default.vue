@@ -69,9 +69,9 @@
           { icon: 'home', title: 'Inicio', to: '/' },
           { icon: 'equalizer', title: 'Stock', to: '/stock' },
           { 
-            icon: 'account_balance_wallet', 
-            title: 'Proveedores', 
-            to: '/providers' 
+            icon: 'account_balance_wallet',
+            title: 'Proveedores',
+            to: '/providers'
           },
           { 
             icon: 'meeting_room', 
