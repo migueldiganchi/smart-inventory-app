@@ -25,9 +25,8 @@
             xs12 sm6 md3>
 
             <v-card class="ma-3 nuxt-link"
-              nuxt="true"
-              :to="item.to"
-              color="blue-grey darken-3 ">
+              :nuxt="true"
+              :to="item.to">
               <div class="text-xs-center pt-3">
                 <v-icon lg right color="primary">
                   {{ item.icon }}
@@ -36,20 +35,6 @@
                   {{ item.title }}
                 </h4>
               </div>
-              <!-- <div class="pa-2">
-                <v-btn
-                  block
-                  flat
-                  small
-                  :disabled="false"
-                  color="primary"
-                  nuxt="true"
-                  :to="item.to"
-                  @click.native="loader = 'loading3'"
-                >
-                  Entrar
-                </v-btn>
-              </div> -->
             </v-card>
           </v-flex>
         </v-layout>

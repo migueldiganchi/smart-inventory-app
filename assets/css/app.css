@@ -2,8 +2,21 @@
   background-color: #455A64 !important;
 }
 
-.nuxt-link {
-  border: solid 1px red !important;
+a.nuxt-link {
+  /* default fallback */
+  background: rgb(0, 0, 0) transparent !important;
+  /* nice browsers */
+  background: rgba(0, 0, 0, 0.6) !important;
+  /* IE 6/7 */
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#333333, endColorstr=#333333) !important;
+  /* IE8 */    
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#333333, endColorstr=#333333)" !important;
+}
+
+a.nuxt-link:hover {
+  -webkit-box-shadow: 0 0 1px 1px #76FF03;
+  -moz-box-shadow: 0 0 1px 1px #76FF03;
+  box-shadow: 0 0 1px 1px #76FF03;
 }
 
 .v-navigation-drawer {

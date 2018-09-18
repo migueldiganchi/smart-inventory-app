@@ -57,7 +57,8 @@
   export default {
     watch: {
       $route () {
-        this.drawer = !this.drawer
+        // hide menu
+        this.drawer = false
       }
     },
     data() {
