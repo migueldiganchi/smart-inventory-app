@@ -6,17 +6,9 @@
       <v-card 
         color="blue-grey darken-3 ma-1" 
         class="white--text">
-          <v-card-title primary-title>
-            <div>
-              <label>{{ product.name }}</label>
-            </div>
-          </v-card-title>
-
-          <v-progress-linear
-            height="15"
-            :value="product.value"
-            color="light-green accent-3"
-          ></v-progress-linear>
+          <h3 class="pa-2 text-xs-center">
+            <label>{{ product.name }}</label>
+          </h3>
 
           <div class="pa-1">
             <div class="mr-1 text-xs-center"
@@ -27,7 +19,14 @@
             </div>
           </div>
 
-          <v-divider light></v-divider>
+          <div class="px-3">
+            <v-progress-linear
+              height="15"
+              :value="product.value"
+              color="light-green accent-3"
+            ></v-progress-linear>
+          </div>
+
           <v-card-actions>
             <v-btn fab small dark color="indigo elevation-1">
               <v-icon dark>timeline</v-icon>
