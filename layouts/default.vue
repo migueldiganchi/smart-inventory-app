@@ -35,7 +35,7 @@
       <v-text-field
         class="mt-2"
         flat
-        label="Buscar producto"
+        label="Buscar habitaciones, productos, proveedores..."
         solo-inverted
       ></v-text-field>
       <v-btn icon>
@@ -72,6 +72,11 @@
             icon: 'account_balance_wallet', 
             title: 'Proveedores', 
             to: '/providers' 
+          },
+          { 
+            icon: 'meeting_room', 
+            title: 'Habitaciones', 
+            to: '/rooms' 
           },
           { icon: 'android', title: 'Asistente', to: '/assistant' }
         ],

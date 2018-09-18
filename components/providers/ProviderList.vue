@@ -2,7 +2,7 @@
   <v-layout row wrap>
     <v-flex v-for="provider in providers"
       :key="provider.id" xs6>
-      <v-card>
+      <v-card class="blue-grey darken-3">
         <h3 class="pa-3">
           {{ provider.name }}
         </h3>

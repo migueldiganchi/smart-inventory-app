@@ -19,8 +19,9 @@
             name: 'Lata coca-cola',
             value: 91,
             features: [
+              { id: 3, title: 'Total', value: 99 },
               { id: 1, title: 'Restante', value: 12 },
-              { id: 2, title: 'Mínimo', value: 23 },
+              { id: 2, title: 'Consumido', value: 23 },
             ]
           },
           {
@@ -28,8 +29,9 @@
             name: 'Vaso de whisky',
             value: 53,
             features: [
+              { id: 3, title: 'Total', value: 99 },
               { id: 1, title: 'Restante', value: 9 },
-              { id: 2, title: 'Mínimo', value: 82 },
+              { id: 2, title: 'Consumido', value: 82 },
             ]
           },
           {
@@ -37,8 +39,9 @@
             name: 'Agua mineral 250cc',
             value: 45,
             features: [
+              { id: 3, title: 'Total', value: 99 },
               { id: 1, title: 'Restante', value: 84 },
-              { id: 2, title: 'Mínimo', value: 32 },
+              { id: 2, title: 'Consumido', value: 32 },
             ]
           },
           {
@@ -46,8 +49,9 @@
             name: 'Lata coca-cola',
             value: 91,
             features: [
+              { id: 3, title: 'Total', value: 99 },
               { id: 1, title: 'Restante', value: 12 },
-              { id: 2, title: 'Mínimo', value: 23 },
+              { id: 2, title: 'Consumido', value: 23 },
             ]
           },
           {
@@ -55,8 +59,9 @@
             name: 'Vaso de whisky',
             value: 53,
             features: [
+              { id: 3, title: 'Total', value: 99 },
               { id: 1, title: 'Restante', value: 9 },
-              { id: 2, title: 'Mínimo', value: 82 },
+              { id: 2, title: 'Consumido', value: 82 },
             ]
           },
           {
@@ -64,8 +69,9 @@
             name: 'Agua mineral 250cc',
             value: 45,
             features: [
+              { id: 3, title: 'Total', value: 99 },
               { id: 1, title: 'Restante', value: 84 },
-              { id: 2, title: 'Mínimo', value: 32 },
+              { id: 2, title: 'Consumido', value: 32 },
             ]
           },
           {
@@ -73,8 +79,9 @@
             name: 'Lata coca-cola',
             value: 91,
             features: [
+              { id: 3, title: 'Total', value: 99 },
               { id: 1, title: 'Restante', value: 12 },
-              { id: 2, title: 'Mínimo', value: 23 },
+              { id: 2, title: 'Consumido', value: 23 },
             ]
           },
           // {
@@ -83,7 +90,7 @@
           //   value: 53,
           //   features: [
           //     { id: 1, title: 'Restante', value: 9 },
-          //     { id: 2, title: 'Mínimo', value: 82 },
+          //     { id: 2, title: 'Consumido', value: 82 },
           //   ]
           // },
           // {
@@ -92,7 +99,7 @@
           //   value: 45,
           //   features: [
           //     { id: 1, title: 'Restante', value: 84 },
-          //     { id: 2, title: 'Mínimo', value: 32 },
+          //     { id: 2, title: 'Consumido', value: 32 },
           //   ]
           // }
         ]

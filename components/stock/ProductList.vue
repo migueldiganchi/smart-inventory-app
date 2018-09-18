@@ -9,12 +9,6 @@
           <v-card-title primary-title>
             <div>
               <label>{{ product.name }}</label>
-              <div 
-                v-for="feature in product.features"
-                :key="feature.id">
-                <small>
-                  <b>{{ feature.title }}</b>: <b color="light-green accent-2">{{ feature.value }}</b></small>
-              </div>
             </div>
           </v-card-title>
 
@@ -23,6 +17,15 @@
             :value="product.value"
             color="light-green accent-3"
           ></v-progress-linear>
+
+          <div class="pa-1">
+            <div class="mr-1 text-xs-center"
+              v-for="feature in product.features"
+              :key="feature.id">
+              <small>
+                <b>{{ feature.title }}</b>: <b color="light-green accent-2">{{ feature.value }}</b></small>
+            </div>
+          </div>
 
           <v-divider light></v-divider>
           <v-card-actions>
