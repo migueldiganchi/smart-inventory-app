@@ -1,4 +1,4 @@
-# StockBot
+# SmartInventory
 
 > Stock management
 

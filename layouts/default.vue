@@ -82,7 +82,7 @@
           { icon: 'android', title: 'Asistente', to: '/assistant' }
         ],
         miniVariant: false,
-        title: 'StockBot'
+        title: 'Smart Inventory'
       }
     }
   };
